@@ -7,7 +7,7 @@ font-family: Calibri, Candara, Segoe, 'Segoe UI', Optima, Arial, sans-serif;
 }
 /*Dit bevat de achtergrond van de homepagina, hoeveel ruimte het inneemt en de dingen er omheen*/
 #Home {
-background-image: url("AchtergrondHome.jpg") ;
+background-color: #DC143C;
 background-repeat: no-repeat;
 background-size:cover;  
 position: relative;
@@ -313,7 +313,7 @@ margin-bottom: 80px;
 
 /* Dit bevat de positie, en breedte van de navigatie bar*/
 nav {
-    position: absolute;
+    position: fixed;
     margin: 0 auto;
     width: 100%;
     padding: 0;
@@ -344,7 +344,7 @@ nav ul li {
     padding: 0px;
     float: left;
     position: fixed;
-    bottom: 0;
+    top: 0;
     padding: 0;
     margin: 0;
     height: 40px;
